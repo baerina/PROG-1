@@ -6,7 +6,7 @@
       
           while (counter < 10) {
             printf("%c", aster);
-            counter = counter + 1;
+            counter++;
   }
     return 0;
   }
