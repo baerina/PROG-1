@@ -1,50 +1,42 @@
 #include <stdio.h>
 
 int main() {
-
-    int row = 1;
-    int column = 1;
-    char aster = '*';
-
-    while (row <= 5) {
-        column = 1;
-
-        while (column <= 5 - row) {
-            printf(" ");
-            column++;
+int row=1;
+int space;
+char aster= '*';
+    
+    while(row<=5){
+        space=1;
+        while (space<=5-row){
+            printf("-");
+            space++;
         }
-
-        column = 1;
-
-        while (column <= (2 * row) - 1) {
+        space=1;
+        while(space<= (2*row) -1){
             printf("%c", aster);
-            column++;
+            space++;
         }
-
         printf("\n");
         row++;
     }
-
     row = 4;
 
     while (row >= 1) {
-        column = 1;
+        space = 1;
 
-        while (column <= 5 - row) {
-            printf(" ");
-            column++;
+        while (space <= 5 - row) {
+            printf("-");
+            space++;
         }
 
-        column = 1;
+        space = 1;
 
-        while (column <= (2 * row) - 1) {
+        while (space <= (2 * row) - 1) {
             printf("%c", aster);
-            column++;
+            space++;
         }
 
         printf("\n");
         row--;
     }
-
-    return 0;
 }
