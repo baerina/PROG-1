@@ -17,7 +17,5 @@ int main() {
         printf("\n");
         row++;
     }
-
-    return 0;
 }
 
