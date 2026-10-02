@@ -8,5 +8,4 @@
          printf("%c\n", aster);
          count++;
    }
-return 0;
-   }
+}
