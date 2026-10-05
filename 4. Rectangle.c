@@ -2,19 +2,19 @@
 
 int main() {
 
-    int row = 1;
-    int column = 1;
+    int lines = 1;
+    int stars = 1;
     char aster = '*';
 
-    while (row <= 3) {
-        column = 1;
+    while (lines <= 3) {
+        stars = 1;
 
-        while (column <= 10) {
+        while (stars <= 10) {
             printf("%c", aster);
-            column++;
+            stars++;
         }
 
         printf("\n");
-        row++;
+        lines++;
     }
 }
