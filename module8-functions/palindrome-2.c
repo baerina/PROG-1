@@ -13,10 +13,10 @@ int main() {
     scanf("%99s", word); 
 
   if (checkPalindrome(word)) {
-    printf("%s is a palindrome!\n", word);
+    printf("Sheesh! The word you just entered (%s) is a palindrome!\n", word);
   }
     else {
-    printf("%s is not a palindrome!\n", word);
+    printf("Engk! Oh no, the word you entered (%s) is not a palindrome!\n", word);
     }
   return 0;
 }
